@@ -8,5 +8,15 @@ sqlite3 baseball.sqlite3
 
 SELECT    _______
 FROM      _______, _______
+INNER JOIN _______ ON primary key = foreign key
+WHERE     _______
+AND       _______
+GROUP BY  _______
 ORDER BY  _______ (DESC)
 LIMIT     _______;
+
+```
+< > = <= >=
+COUNT(*)
+SUM(_), AVG(_), MAX(_), MIN(_)
+```
